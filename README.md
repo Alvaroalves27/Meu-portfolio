@@ -26,8 +26,7 @@ desenvolvido utilizando a ferramenta Figma.
 Autor:
 Álvaro Rônaldy santos Alves
 
--GitHub: 
+-GitHub:https://github.com/Alvaroalves27/Meu-portfolio
 
--LinkedIn:
 
 -E-mail:alvaroronaldy@gmail.com
