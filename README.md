@@ -1,59 +1,32 @@
-# MeuPortfolio
+# Meu-portfólio
+# Descrição
+Este projeto apresenta o wireframe inicial do meu portfólio profissional,
+desenvolvido utilizando a ferramenta Figma.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
+ # Ferramenta utilizada
 
-## Development server
+ .figma
+ 
+ .IA
+ 
+ # Protótipo
+ Link para o protótipo no Figma:https://www.figma.com/design/ZyE3BY5NBNdqbekEpG6uWm/Sem-t%C3%ADtulo?node-id=4-3&t=rg9qkspRwy8UuV8g-1
 
-To start a local development server, run:
+#Capturas de tela
+# Tela 1
+![Tela 1 do protótipo](captura3.png)
+# Tela 2
+![Tela 3 do protótipo](captura%20%282%29.png)
+ # Tela 3
+![Tela 2 do protótipo](captura.png)
 
-```bash
-ng serve
-```
+ 
+ https://www.figma.com/design/ZyE3BY5NBNdqbekEpG6uWm/Sem-t%C3%ADtulo?node-id=0-1&p=f&t=tZwq0khHL0fVvMCf-0
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Autor:
+Álvaro Rônaldy santos Alves
 
-## Code scaffolding
+-GitHub:https://github.com/Alvaroalves27/Meu-portfolio
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+-E-mail:alvaroronaldy@gmail.com
