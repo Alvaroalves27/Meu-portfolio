@@ -1,0 +1,177 @@
+.sobre {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 60px 40px;
+  background-color: #5fc1cc;
+}
+
+
+.apresentacao {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.apresentacao h1 {
+  font-size: 48px;
+  margin: 0 0 30px;
+
+  color: #111827;
+}
+
+.avatar {
+  width: 280px;
+  height: 280px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.botao {
+  display: inline-block;
+
+  margin-top: 20px;
+  padding: 12px 24px;
+
+  background-color: #111827;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.botao:hover {
+  transform: translateY(-2px);
+
+  background-color: #374151;
+}
+
+.sobre-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.biografia,
+.objetivo,
+.qualidades {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.objetivo {
+  min-height: 100%;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.biografia,
+.objetivo,
+.qualidades {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sobre-conteudo h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: #111827;
+
+  font-size: 28px;
+}
+
+.sobre-conteudo p {
+  color: #374151;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  margin-bottom: 15px;
+}
+
+.informacoes {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.informacoes h2 {
+  font-size: 22px;
+}
+
+.contatos a {
+  color: #2563eb;
+
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+.contatos a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+  .sobre {
+    padding: 40px 20px;
+  }
+
+  .apresentacao {
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 30px;
+  }
+
+  .apresentacao h1 {
+    font-size: 36px;
+  }
+
+  .avatar {
+    width: 220px;
+    height: 220px;
+  }
+
+  .sobre-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .informacoes {
+    grid-template-columns: 1fr;
+  }
+
+}                                                                                               
